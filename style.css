@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Acme", serif;
+  height: 100vh;
+  background-image: url('./Flag_of_Germany.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+.button-parent button {
+    width: 230px;
+    height: 120px;
+    background-color: #190259;
+    border: none;
+}
+
+.button-parent button:hover {
+    cursor: pointer;
+}
+
+.button-parent button:active {
+    transform: scale(1.2);
+}
+
